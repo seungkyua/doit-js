@@ -9,5 +9,27 @@
 </head>
 <body>
 
+  <div id="container">
+    <h1>Book List</h1>
+    <form>
+      <ul id="bookInfo">
+        <li>
+          <lable for="title"> 제 목 </lable>
+          <input type="text" id="title">
+        </li>
+        <li>
+          <lable for="author"> 저 자 </lable>
+          <input type="text" id="author">
+        </li>
+      </ul>
+
+      <button type="reset"> 취소하기 </button>
+      <button id="save"> 저장하기 </button>
+    </form>
+    
+    <ul id="bookList"></ul>
+  </div>
+
+  <script src="js/bookList.js"></script>
 </body>
 </html>
